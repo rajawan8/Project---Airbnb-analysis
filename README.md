@@ -4,6 +4,10 @@ For this project 2 CSV files has been used:
 Calendar.csv - including listing id and the price and availability for that day
 and listings.csv - including full descriptions and average review score
 
+# File description:
+Nano_Degree_Udacity_Project.ipynb - Data analysis
+
+
 Purpose of this project: Since 2008, guests and hosts have used Airbnb to travel in a more unique, personalized way. As part of the Airbnb Inside initiative, this dataset describes the listing activity of homestays in Seattle, WA
 These millions of listings generate a lot of data, which can be analysed and used for a variety of purposes, including security, business decisions, understanding customer and provider (host) behaviour and performance on the platform, guiding marketing initiatives, and implementing innovative additional services, among others.
 
@@ -13,8 +17,8 @@ These millions of listings generate a lot of data, which can be analysed and use
 3.Correlation of review_scores_rating,property_type,room_type,bedrooms with the price of listings.
 4.Factors impacting Price through Linear Regression model technique.
 
-Libraries used for this project:
-# Useful packages
+# Libraries used for this project:
+Useful packages
 import numpy as np
 import pandas as pd
 import seaborn as sns
