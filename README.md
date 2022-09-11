@@ -4,8 +4,10 @@ For this project 2 CSV files has been used:
 Calendar.csv - including listing id and the price and availability for that day
 and listings.csv - including full descriptions and average review score
 
-# File description:
+File description:
 Nano_Degree_Udacity_Project.ipynb - Data analysis
+Archive.zip - Calendar.csv file
+Listings.csv - This file has been used for last 2 business questions
 
 
 Purpose of this project: Since 2008, guests and hosts have used Airbnb to travel in a more unique, personalized way. As part of the Airbnb Inside initiative, this dataset describes the listing activity of homestays in Seattle, WA
@@ -20,23 +22,41 @@ These millions of listings generate a lot of data, which can be analysed and use
 # Libraries used for this project:
 Useful packages
 import numpy as np
+
 import pandas as pd
+
 import seaborn as sns
+
 from collections import Counter
+
 import matplotlib.pyplot as plt 
+
 plt.rc("font", size=14)
+
 import time as tm
+
 from datetime import datetime
+
 import operator
+
 from sklearn import preprocessing
+
 from sklearn.linear_model import LinearRegression
+
 from sklearn.metrics import mean_squared_error
+
 from sklearn.metrics import accuracy_score
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.metrics import classification_report
+
 from sklearn.metrics import confusion_matrix
+
 from sklearn.utils import resample
+
 from sklearn.preprocessing import minmax_scale
+
 from sklearn.preprocessing import StandardScaler
 
 Reading CSV files:
