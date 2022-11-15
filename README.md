@@ -1,4 +1,4 @@
-#Airbnb in Seattle
+# Airbnb in Seattle
 
 
 ### Project Motivation
