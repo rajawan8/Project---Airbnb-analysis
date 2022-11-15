@@ -1,76 +1,32 @@
-# Project---Airbnb-analysis
-This project is related to Seattle airbnb case study part of Udacity - Nano degree data scientist program
-For this project 2 CSV files has been used:
-Calendar.csv - including listing id and the price and availability for that day
-and listings.csv - including full descriptions and average review score
-
-File description:
-Nano_Degree_Udacity_Project.ipynb - Data analysis
-Archive.zip - Calendar.csv file
-Listings.csv - This file has been used for last 2 business questions
+#Airbnb in Seattle
 
 
-Purpose of this project: Since 2008, guests and hosts have used Airbnb to travel in a more unique, personalized way. As part of the Airbnb Inside initiative, this dataset describes the listing activity of homestays in Seattle, WA
-These millions of listings generate a lot of data, which can be analysed and used for a variety of purposes, including security, business decisions, understanding customer and provider (host) behaviour and performance on the platform, guiding marketing initiatives, and implementing innovative additional services, among others.
+### Project Motivation
+For this project, I was interested in using Seattle Airbnb Open Data to get useful information that will help the future Airbnb investor  in Seattle. In particular, the questions I interested in are :
 
-4 business questions:
-1.Comparison of average price on weekend vs weekday.
-2.Monthly and yearly trend of average price.
-3.Correlation of review_scores_rating,property_type,room_type,bedrooms with the price of listings.
-4.Factors impacting Price through Linear Regression model technique.
+- What are the most requested neighborhoods in Seattle?
+- What are the busiest times of the year to visit Seattle? By how much do prices spike?
+- What should we care about to have a good Airbnb Ratings?
 
-# Libraries used for this project:
-Useful packages
-import numpy as np
+#Blog:https://medium.com/@nisha8rajawat/hey-planning-to-visit-a-seattle-c2a1ae466e45
 
-import pandas as pd
+### Install
 
-import seaborn as sns
+This project requires **Python 3.x** and the following Python libraries installed:
 
-from collections import Counter
+- [NumPy](http://www.numpy.org/)
+- [Pandas](http://pandas.pydata.org)
+- [matplotlib](http://matplotlib.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)
 
-import matplotlib.pyplot as plt 
+### File Descriptions
 
-plt.rc("font", size=14)
+- Data :  * listings.csv, including full descriptions and average review score.  *Reviews.csv, including unique id for each reviewer and detailed comments * Calendar.csv, including listing id and the price and availability for that day.
+- Three jupyter notebooks each one answer a question.
 
-import time as tm
+### Summary of results
+The results of the analysis are summarised in a blog post here: [Three things you should know before investing in Airbnb in seattle](https://medium.com/@jaouadeddadsi2016/three-things-you-should-know-before-investing-in-airbnb-in-seattle-8013b25cd4e2)
 
-from datetime import datetime
-
-import operator
-
-from sklearn import preprocessing
-
-from sklearn.linear_model import LinearRegression
-
-from sklearn.metrics import mean_squared_error
-
-from sklearn.metrics import accuracy_score
-
-from sklearn.model_selection import train_test_split
-
-from sklearn.metrics import classification_report
-
-from sklearn.metrics import confusion_matrix
-
-from sklearn.utils import resample
-
-from sklearn.preprocessing import minmax_scale
-
-from sklearn.preprocessing import StandardScaler
-
-Reading CSV files:
-for first 2 business questions 
-data_c = pd.read_csv("calendar.csv", encoding='latin-1', low_memory=False)
-data_c.head()
-
-For last 2 business questions
-data_l = pd.read_csv("listings.csv", encoding='latin-1', low_memory=False)
-data_l.head()
-
-Solution:
-it can be seen that if review score rating, review per month score and number of reviews are increased price would decrease whereas there is not much impact of bedroom and beds on price, however if longitude and latitude is increasing then price will also increase, they are directly correlated 
-Also prices are high for 6 bedroom house and house boat entire bedroom
-
-
+### Licenses and Acknowledgements
+ Udacity and kaggle/AirBnb for the data.
 
