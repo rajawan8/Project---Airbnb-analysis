@@ -8,8 +8,6 @@ For this project, I was interested in using Seattle Airbnb Open Data to get usef
 - What are the busiest times of the year to visit Seattle? By how much do prices spike?
 - What should we care about to have a good Airbnb Ratings?
 
-#Blog:https://medium.com/@nisha8rajawat/hey-planning-to-visit-a-seattle-c2a1ae466e45
-
 ### Install
 
 This project requires **Python 3.x** and the following Python libraries installed:
@@ -25,7 +23,7 @@ This project requires **Python 3.x** and the following Python libraries installe
 - Three jupyter notebooks each one answer a question.
 
 ### Summary of results
-The results of the analysis are summarised in a blog post here: [Three things you should know before investing in Airbnb in seattle](https://medium.com/@jaouadeddadsi2016/three-things-you-should-know-before-investing-in-airbnb-in-seattle-8013b25cd4e2)
+The results of the analysis are summarised in a blog post here: https://medium.com/@nisha8rajawat/hey-planning-to-visit-a-seattle-c2a1ae466e45
 
 ### Licenses and Acknowledgements
  Udacity and kaggle/AirBnb for the data.
